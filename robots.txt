@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://justicenyazika.vercel.app/sitemap.xml
