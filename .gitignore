@@ -1,0 +1,6 @@
+# Native SolidWorks source files are not part of the public static site.
+*.SLDPRT
+*.SLDASM
+
+# Certificates are published as page images instead of source PDFs.
+/assets/certificates/*.pdf

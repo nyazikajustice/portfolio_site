@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Justice John Nyazika | Mechanical Engineering Portfolio</title>
+<meta name="description" content="Mechanical Engineering student at Aditya University: CAD design, SolidWorks, ANSYS simulation, automation and robotics.">
+<meta property="og:title" content="Justice John Nyazika | Mechanical Engineering Portfolio">
+<meta property="og:image" content="assets/img/profile.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9A%99%EF%B8%8F%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Public+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="prog"></div>
+<nav aria-label="Main"><div class="wrap"><a class="logo" href="#home">Justice<span>.</span>Nyazika</a>
+<ul id="menu"><li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li><li><a href="#viewer">3D Viewer</a></li><li><a href="#certs">Certificates</a></li><li><a href="#journey">Journey</a></li><li><a href="#resume">Resume</a></li><li><a href="#contact">Contact</a></li></ul>
+<button class="ib th" id="theme" aria-label="Toggle light or dark theme">☀</button><button class="ib" id="burger" aria-label="Open menu" aria-expanded="false">☰</button></div></nav>
+
+<header class="hero" id="home"><div class="wrap">
+<div><div class="greet" id="greet" aria-live="polite"></div>
+<h1>Justice John<br>Nyazika</h1>
+<div class="typed" id="typed" aria-label="Mechanical Engineering student"></div>
+<p class="lead" style="margin-top:14px">Mechanical Engineering student at Aditya University, India. I design machines in SolidWorks, test them in ANSYS, and build automation with Arduino, with a focus on engineering that makes workplaces safer. Building for Africa.</p>
+<div class="btns"><a class="btn p" href="#projects">Explore my engineering work</a><a class="btn s" href="assets/docs/Justice_Nyazika_Resume.pdf" download>Download my CV</a></div>
+<div class="stats"><div><b data-n="projects">0</b><span>Documented projects</span></div><div><b data-n="cad">0</b><span>SolidWorks files</span></div><div><b data-n="certs">0</b><span>Certificates</span></div><div><b data-n="videos">0</b><span>Simulation and demo videos</span></div></div></div>
+<div class="vis"><img class="photo" src="assets/img/profile.jpg" alt="Portrait of Justice John Nyazika" width="640" height="640"><div id="stage" role="img" aria-label="Rotating 3D gear. Drag to rotate."><span class="cap">Drag the gear to rotate</span></div></div>
+</div></header>
+
+<section id="about"><div class="wrap two reveal">
+<div><div class="mono">About</div><h2 style="font-size:clamp(28px,4vw,42px);margin:6px 0 16px">Engineering for safer, smarter work</h2>
+<p>I'm a Mechanical Engineering student passionate about designing autonomous systems, intelligent machines and products that improve workplace safety and enhance human lives.</p>
+<p>My mission is to use automation, robotics, machine design and product development to reduce human exposure to dangerous chemicals, sharp tools, repetitive tasks and physically demanding environments.</p>
+<p>Through CAD modelling, simulation-driven design and hands-on prototyping, I turn complex engineering challenges into practical, reliable and scalable solutions.</p>
+<div class="info"><div><i>Studying</i>Mechanical Engineering, Aditya University</div><div><i>Location</i>Andhra Pradesh, India</div><div><i>Languages</i>English, Shona</div><div><i>Email</i><a href="mailto:justicejohnnyazika@gmail.com">justicejohnnyazika@gmail.com</a></div></div></div>
+<div><div class="mono" style="margin-bottom:12px">Engineering interests</div><div class="cards" style="grid-template-columns:1fr 1fr">
+<div class="card"><h3>Machine Design</h3><p>Efficient mechanical systems and industrial equipment.</p></div>
+<div class="card"><h3>CAD and Product Design</h3><p>3D modelling, engineering drawings, assemblies.</p></div>
+<div class="card"><h3>Simulation</h3><p>Structural, thermal and fluid analysis in ANSYS.</p></div>
+<div class="card"><h3>Automation</h3><p>Smart manufacturing and sensor integration.</p></div>
+<div class="card"><h3>Workplace Safety</h3><p>Engineering solutions that create safer workplaces.</p></div>
+<div class="card"><h3>Robotics</h3><p>Intelligent systems for safety-critical applications.</p></div></div></div>
+</div></section>
+
+<section id="skills" class="alt"><div class="wrap reveal"><div class="sh"><div class="mono">Skills and tools</div><h2>Technical toolbox</h2><p>Levels are my own self-assessment.</p></div>
+<div class="two" style="gap:32px"><div class="bars" id="bars"></div>
+<div><div class="mono" style="margin-bottom:10px">Engineering skills</div><div class="chips"><span class="chip">Problem Solving</span><span class="chip">Design Thinking</span><span class="chip">Project Management</span><span class="chip">Technical Documentation</span><span class="chip">GD&amp;T Standards</span><span class="chip">Critical Analysis</span><span class="chip">Prototyping</span><span class="chip">Teamwork</span></div>
+<div class="mono" style="margin:24px 0 10px">Other</div><div class="chips"><span class="chip">Technical Drawing</span><span class="chip">MS Office</span><span class="chip">3D Printing</span><span class="chip">HSE Engineering</span></div></div></div></div></section>
+
+<section id="projects"><div class="wrap"><div class="sh reveal"><div class="mono">Engineering work</div><h2>Projects and CAD archive</h2><p>Select a project for photos, analysis images, videos and its SolidWorks parts and assemblies. Models are view-only; source files are available by permission.</p></div>
+<div class="tools"><input id="q" type="search" placeholder="Search projects, tools, parts" aria-label="Search projects"><div id="cats" class="chips"></div></div>
+<div class="cards" id="pgrid"></div><p class="empty" id="pnone" hidden>No projects match your search.</p></div></section>
+
+<section id="viewer" class="alt"><div class="wrap reveal"><div class="sh"><div class="mono">Interactive 3D</div><h2>3D model viewer</h2><p>Rotate, zoom, select, hide and explode my parts and assemblies in the browser. Models are for viewing only: downloads are not offered. To use a model, please ask me for permission.</p></div>
+<div class="vw"><div id="v3d"><div id="vmsg">No model loaded.</div></div>
+<aside><label for="vsel" style="margin-top:0">Model</label><select id="vsel"><option value="">No models published yet</option></select>
+<div class="row"><button class="mini" id="vdemo" type="button">Sample geometry</button><button class="mini" id="vreset" type="button">Reset</button><button class="mini" id="vfs" type="button">Full screen</button></div>
+<label for="vx">Exploded view</label><input id="vx" type="range" min="0" max="1" step=".01" value="0">
+<p id="vinfo" style="color:var(--mute)">Select a part to see its bounding size. Units are those stored in the file.</p><ul id="vtree"></ul></aside></div></div></section>
+
+<section id="certs"><div class="wrap"><div class="sh reveal"><div class="mono">Professional development</div><h2>Certifications</h2><p>Original certificates, shown for viewing only. Verification on request.</p></div>
+<div class="tools"><input id="cq" type="search" placeholder="Search certificates" aria-label="Search certificates"><div id="ccats" class="chips"></div></div>
+<div class="cards" id="cgrid"></div></div></section>
+
+<section id="journey" class="alt"><div class="wrap two"><div class="reveal"><div class="sh"><div class="mono">Journey</div><h2>Engineering timeline</h2></div>
+<ul class="tl">
+<li><small>2021</small><h4>Engineering foundations</h4><p>Began Mechanical Engineering. Mechanics, thermodynamics, mathematics and engineering drawing.</p></li>
+<li><small>2022</small><h4>CAD learning</h4><p>SolidWorks and AutoCAD. First parametric models.</p></li>
+<li><small>2022</small><h4>First SolidWorks projects</h4><p>Engine, bearing and wheel assemblies.</p></li>
+<li><small>2023</small><h4>ANSYS and simulation</h4><p>Finite element analysis with ANSYS Workbench.</p></li>
+<li><small>2023</small><h4>Engineering competitions</h4><p>Design contests and hackathons.</p></li>
+<li><small>2024</small><h4>Mechatronics and Arduino</h4><p>Arduino projects and robotics.</p></li>
+<li><small>2024</small><h4>Portfolio development</h4><p>Consolidated projects and advanced certificates.</p></li>
+<li><small>2025+</small><h4>Next</h4><p>Internships, R&amp;D, and AI with engineering.</p></li></ul></div>
+<div class="reveal"><div class="sh"><div class="mono">Leadership</div><h2>Initiatives</h2></div>
+<div class="card" style="margin-bottom:14px"><small class="mono">August – present</small><h3 style="margin-top:6px">SRC President</h3><p>Student Representative Council for Zimbabwean Presidential Scholarship students at Aditya University. Represents the council's students to the university administration.</p></div>
+<div class="card" style="margin-bottom:14px"><small class="mono">Nov 2024 – August</small><h3 style="margin-top:6px">International Student Representative</h3><p>Aditya University Boys Hostel, Peddapuram. Liaison for international students with housing administration on welfare and facility concerns. Role completed.</p></div>
+<div class="card" style="margin-bottom:14px"><small class="mono">Aug 2022 – Oct 2024</small><h3 style="margin-top:6px">Youth Project Manager</h3><p>Guta Ra Jehovha, Mutare, Zimbabwe. Led a multidisciplinary youth team on a solar-powered irrigation project, community garden and poultry project.</p></div>
+<div class="card"><small class="mono">2025 – present</small><h3 style="margin-top:6px">Major project: Autonomous Delivery Robot</h3><p>Designing a delivery robot with obstacle detection, route navigation and Arduino control.</p></div></div></div></section>
+
+<section id="resume"><div class="wrap two reveal"><div><div class="mono">Resume</div><h2 style="font-size:clamp(28px,4vw,42px);margin:6px 0 20px">Education</h2>
+<ul class="tl"><li><small>2021 – present</small><h4>Mechanical Engineering</h4><p>Aditya University, India. Specialisation in design, automation and manufacturing.</p></li>
+<li><small>2019 – 2021</small><h4>Higher Secondary (12th grade)</h4><p>Sakubva High School. Physics, Chemistry, Mathematics, Statistics.</p></li></ul>
+<a class="btn p" href="assets/docs/Justice_Nyazika_Resume.pdf" download>Download full resume (PDF)</a></div>
+<div class="card"><h3 style="margin-bottom:12px">Technical summary</h3><div class="info" style="margin:0"><div><i>CAD</i>SolidWorks, AutoCAD, CATIA</div><div><i>Simulation</i>ANSYS, CFD, FEA</div><div><i>Code</i>Arduino/C++, MATLAB, Python</div><div><i>Other</i>GD&amp;T, technical drawing, MS Office</div></div></div></div></section>
+
+<section id="contact" class="alt"><div class="wrap two ct reveal"><div><div class="mono">Contact</div><h2 style="font-size:clamp(28px,4vw,42px);margin:6px 0 14px">Let's connect</h2><p style="color:var(--mute)">Open to internships, collaborations and engineering discussions.</p>
+<a class="cl" href="mailto:justicejohnnyazika@gmail.com"><span>✉</span><span><small>Email</small>justicejohnnyazika@gmail.com</span></a>
+<a class="cl" href="https://www.linkedin.com/in/justice-nyazika-146041267" target="_blank" rel="noopener"><span>in</span><span><small>LinkedIn</small>justice-nyazika-146041267</span></a>
+<a class="cl" href="https://wa.me/263717366292" target="_blank" rel="noopener"><span>☎</span><span><small>WhatsApp</small>+263 717 366 292</span></a></div>
+<form id="cf" novalidate><label for="n">Full name</label><input id="n" autocomplete="name"><div class="err" id="en"></div>
+<label for="e">Email</label><input id="e" type="email" autocomplete="email"><div class="err" id="ee"></div>
+<label for="s">Subject</label><input id="s"><label for="m">Message</label><textarea id="m" rows="5"></textarea><div class="err" id="em"></div>
+<button class="btn p" type="submit" style="margin-top:6px">Open in my email app</button><p style="font-size:13px;color:var(--mute)">To request access to a model or source file, use the Request access buttons on a project. This prepares an email in your own mail app. Nothing is stored by this website.</p></form></div></section>
+
+<footer><div class="wrap"><span>© <span id="yr"></span> Justice John Nyazika · Mechanical Engineering Portfolio</span><span>Let's build for Africa.</span></div></footer>
+<button id="top" aria-label="Back to top">↑</button>
+
+<dialog id="pm" aria-labelledby="pmt"><div class="dh"><div><div class="mono" id="pmc"></div><h3 id="pmt"></h3></div><button class="ib" data-close aria-label="Close">✕</button></div><div class="db" id="pmb"></div></dialog>
+<dialog id="lb" style="width:min(1100px,96vw)"><div class="dh"><div id="lbc" class="mono"></div><button class="ib" data-close aria-label="Close">✕</button></div><div class="db"><div style="display:flex;align-items:center;gap:8px"><button class="ib" id="lbp" aria-label="Previous">‹</button><img id="lbi" alt="" style="flex:1;min-width:0"><button class="ib" id="lbn" aria-label="Next">›</button></div></div></dialog>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/STLLoader.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
